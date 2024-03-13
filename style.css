@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+  .header{
+    background-color: pink;
+    height: 60px;
+    margin-top: -15px;
+  }
+  
+  .header nav {
+    margin: -45px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  }
+  
+  .header nav ul {
+    list-style-type: none;
+  }
+  
+  .header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+  }
+  
+  
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .portfolioProjects{
+    width: 425px;
+    height: 275px;
+    margin: 50px;
+    border: 3px dashed;
+  }
+  
+  .page-section, #work_text{
+    margin: auto; 
+    text-align: center;
+    font-size: 1.2em; 
+    font-weight: bold;
+    
+  }
+  .name{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  .portfolioProjects:hover{
+    opacity: .5;
+  }
